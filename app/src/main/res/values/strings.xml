@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Auto Volume</string>
+    <string name="about">Auto Volume is an app that senses the surrounding sound intensity and changes the phone\'s volume according to it.</string>
+
+</resources>

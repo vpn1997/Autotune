@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepak.savetime.About"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="@string/about"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textColor="#000"
+
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Developers"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="Deepak Kumar"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="Vipin Singh"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+android:padding="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Gaurav Kumar"
+        android:textStyle="bold"
+        android:textColor="#000"
+android:padding="5dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+</LinearLayout>
